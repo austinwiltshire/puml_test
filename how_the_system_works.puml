@@ -1,7 +1,7 @@
 @startuml
 (*)  --> "check input"
 If "input is verbose" then
---> [Yes] "turn on verbosity"
+--> [Yes] "turn verbosity up to 11"
 --> "run command"
 else
 --> "run command"
